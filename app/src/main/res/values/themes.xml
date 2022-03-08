@@ -14,4 +14,12 @@
         <!-- Customize your theme here. -->
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
     </style>
+
+    <style name="Button">
+        <item name="android:background">"@drawable/bg_button"</item>
+        <item name="android:fontFamily">@font/poppins_reguler</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
 </resources>
