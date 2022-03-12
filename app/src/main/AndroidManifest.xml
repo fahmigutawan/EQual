@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EQual">
         <activity
-            android:name=".onboarding.OnboardingActivity"
+            android:name=".activity_splashscreen.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login.LoginActivity"/>
+        <activity android:name=".activity_login.LoginActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            />
+        <activity android:name=".activity_onboard.OnboardingActivity"/>
     </application>
-
 </manifest>

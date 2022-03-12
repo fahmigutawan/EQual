@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/login_activity_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/universal_topbar_background">
+
+                    <ImageView
+                        android:id="@+id/login_activity_logo_iv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="32dp"
+                        android:paddingBottom="32dp"
+                        tools:srcCompat="@tools:sample/avatars" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="32dp"
+                    android:paddingBottom="32dp"
+                    android:paddingRight="32dp"
+                    android:layout_marginTop="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:gravity="center"
+                        android:text="Hello!"
+                        android:textColor="@color/black"
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_reguler"
+                        android:gravity="center"
+                        android:text="Start your journey with us!"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/nunito_reguler"
+                        android:text="Email"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-12dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/login_activity_emilet"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/universal_white_textinput_round"
+                            android:fontFamily="@font/nunito_reguler"
+                            android:paddingLeft="16dp"
+                            android:paddingTop="12dp"
+                            android:paddingRight="16dp"
+                            android:paddingBottom="12dp"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/nunito_reguler"
+                        android:text="Password"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-12dp"
+                        app:passwordToggleEnabled="true">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/login_activity_passwordet"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/universal_white_textinput_round"
+                            android:fontFamily="@font/nunito_reguler"
+                            android:inputType="textPassword"
+                            android:paddingLeft="16dp"
+                            android:paddingTop="12dp"
+                            android:paddingRight="16dp"
+                            android:paddingBottom="12dp"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/login_activity_loginBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="64dp"
+                        android:background="@drawable/universal_rainbow_btn"
+                        android:fontFamily="@font/nunito_black"
+                        android:text="Log in"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/nunito_reguler"
+                        android:gravity="center"
+                        android:text="Or continue with"
+                        android:textSize="12dp" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/login_activity_googlefab"
+                        android:layout_margin="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:backgroundTint="@color/white"
+                        android:clickable="true"
+                        android:foreground="@drawable/activity_login_google_button"
+                        android:foregroundGravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
