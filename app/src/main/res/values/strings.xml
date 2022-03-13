@@ -1,7 +1,20 @@
 <resources>
     <string name="app_name">EQual</string>
-    <string name="judul">Welcome!</string>
-    <string name="subjudul">Explore all the most of your needs based on your experienced and needs</string>
+    <string name="judul">Register</string>
+    <string name="subjudul">Start your journey with us!</string>
+    <string name="subjudul_report">You can report your problem and you can also tell me how the chronology.</string>
+    <string name="judul1">Welcome!</string>
+    <string name="judul_report">Reporting \nYour Problem</string>
+    <string name="login">
+        Already have an account? <font color="#00000"><b>Login</b></font>
+    </string>
+    <string name="subjudul1">Explore all the most of your needs based on your experienced and needs</string>
     <string name="btn_login">LOGIN</string>
     <string name="btn_register">REGISTER</string>
+    <string name="bt_username">Enter Username</string>
+    <string name="bt_password">Password</string>
+    <string name="bt_password2">Confirm Password</string>
+    <string name="bt_signup">Sign Up</string>
+    <string name="bt_login">LOGIN</string>
+    <string name="bt_register">REGISTER</string>
 </resources>
