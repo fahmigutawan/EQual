@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.bccintern3.invisiblefunction.LoadActivity
 import com.example.equal.R
 import com.example.equal.activity_login.LoginActivity
+import com.example.equal.activity_register.RegisterActivity
 import com.squareup.picasso.Picasso
 
 class OnboardingActivity:AppCompatActivity(R.layout.activity_onboard) {
@@ -81,6 +82,9 @@ class OnboardingActivity:AppCompatActivity(R.layout.activity_onboard) {
     fun runClickListener(){
         loginBtn.setOnClickListener {
             loadAct.loadActivityDelayable(this,LoginActivity::class.java,1000)
+        }
+        registerBtn.setOnClickListener {
+            loadAct.loadActivityDelayable(this, RegisterActivity::class.java,1000)
         }
     }
 }

@@ -60,7 +60,6 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:paddingLeft="32dp"
-                    android:paddingBottom="32dp"
                     android:paddingRight="32dp"
                     android:layout_marginTop="16dp">
 
@@ -171,17 +170,45 @@
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <Button
-                        android:id="@+id/register_activity_loginBtn"
+                        android:id="@+id/register_activity_registerBtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="64dp"
                         android:background="@drawable/universal_rainbow_btn"
-                        android:fontFamily="@font/nunito_black"
-                        android:text="Button"
+                        android:fontFamily="@font/nunito_medium"
+                        android:text="Sign up"
                         android:textAllCaps="false"
                         android:textColor="@color/white"
-                        android:textSize="14dp" />
+                        android:textSize="16dp" />
 
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Already have an account?"
+                        android:gravity="end"
+                        android:textSize="14dp"
+                        android:textColor="@color/palet_text_dark"
+                        />
+
+                    <TextView
+                        android:id="@+id/register_activity_loginBtn"
+                        android:clickable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Log in"
+                        android:paddingLeft="8dp"
+                        android:textSize="14dp"
+                        android:textColor="@color/palet_text_dark"
+                        android:fontFamily="@font/nunito_black"/>
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>

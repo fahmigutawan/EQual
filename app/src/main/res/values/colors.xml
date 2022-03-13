@@ -14,8 +14,8 @@
     <color name="palet_purple">#79418A</color>
     <color name="palet_fuchsia">#DA6ED1</color>
     <color name="palet_pink">#EE748F</color>
-    <color name="palet_light_gray1">#FAFAFA</color>
-    <color name="palet_light_gray2">#F2F2F2</color>
-    <color name="palet_light_gray3">#E8E8E8</color>
-    <color name="palet_light_gray4">#E0E0E0</color>
+    <color name="palet_light_gray1">#DCDADA</color>
+    <color name="palet_light_gray2">#C1BFBF</color>
+    <color name="palet_light_gray3">#888888</color>
+    <color name="palet_light_gray4">#606060</color>
 </resources>

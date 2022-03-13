@@ -146,11 +146,11 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="64dp"
                         android:background="@drawable/universal_rainbow_btn"
-                        android:fontFamily="@font/nunito_black"
+                        android:fontFamily="@font/nunito_medium"
                         android:text="Log in"
                         android:textAllCaps="false"
                         android:textColor="@color/white"
-                        android:textSize="14dp" />
+                        android:textSize="16dp" />
 
                     <TextView
                         android:layout_width="match_parent"
