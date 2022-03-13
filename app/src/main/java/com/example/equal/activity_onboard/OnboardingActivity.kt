@@ -11,7 +11,7 @@ import com.example.equal.activity_login.LoginActivity
 import com.example.equal.activity_register.RegisterActivity
 import com.squareup.picasso.Picasso
 
-class OnboardingActivity:AppCompatActivity(R.layout.activity_onboard) {
+class OnboardingActivity:AppCompatActivity(R.layout.onboard_activity) {
     private lateinit var screenBg:ImageView
     private lateinit var screenFg:ImageView
     private lateinit var registerBtn:Button
@@ -81,7 +81,7 @@ class OnboardingActivity:AppCompatActivity(R.layout.activity_onboard) {
     }
     fun runClickListener(){
         loginBtn.setOnClickListener {
-            loadAct.loadActivityDelayable(this,LoginActivity::class.java,1000)
+            loadAct.loadActivityDelayable(this, LoginActivity::class.java,1000)
         }
         registerBtn.setOnClickListener {
             loadAct.loadActivityDelayable(this, RegisterActivity::class.java,1000)

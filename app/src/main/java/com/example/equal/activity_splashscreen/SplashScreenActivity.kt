@@ -9,7 +9,7 @@ import com.example.equal.R
 import com.example.equal.activity_onboard.OnboardingActivity
 import com.squareup.picasso.Picasso
 
-class SplashScreenActivity:AppCompatActivity(R.layout.activity_splashscreen) {
+class SplashScreenActivity:AppCompatActivity(R.layout.splashscreen_activity) {
     private lateinit var bg:ImageView
     private lateinit var logo:ImageView
     private lateinit var loadAct:LoadActivity

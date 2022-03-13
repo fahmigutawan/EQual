@@ -4,18 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/activity_login_google_button.xml" value="0.1865" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/activity_onboard_behind_btn.xml" value="0.1895" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/activity_onboard_btn.xml" value="0.1095" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/activity_onboarding_behind_btn.xml" value="0.2435" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/activity_splashscreen_backgrounf.xml" value="0.265" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/bg_button.xml" value="0.1895" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/box.xml" value="0.1895" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/bt_round.xml" value="0.1895" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/icon_google.xml" value="0.1865" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/icon_login_selected.xml" value="0.258" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/icon_login_track.xml" value="0.258" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/onboard_activity_thumbswitch.xml" value="0.2" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/onboard_activity_trackswitch.xml" value="0.2" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/onboardactivity_login_radiobutton_bg.xml" value="0.258" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/transparent.xml" value="0.1895" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/transparent2.xml" value="0.1895" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/universal_fuchsia_btn.xml" value="0.1865" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/universal_primary_btn.xml" value="0.265" />
-        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/universal_rainbow_btn.xml" value="0.2435" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/universal_rainbow_btn.xml" value="0.21" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/universal_topbar_background.xml" value="0.1865" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/drawable/universal_white_textinput_round.xml" value="0.1865" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/activity_login.xml" value="0.2" />
@@ -23,17 +29,19 @@
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/activity_onboard.xml" value="0.19746376811594202" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/activity_register_alex.xml" value="0.19746376811594202" />
-        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/login_activity.xml" value="0.3442982456140351" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/fragment_report.xml" value="0.22644927536231885" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/home_activity.xml" value="0.17255434782608695" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/home_homefragment_report.xml" value="0.17255434782608695" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/home_profilefragment.xml" value="0.17255434782608695" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/login_activity.xml" value="0.1" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/onboarding_activity.xml" value="0.2" />
-        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/register_activity.xml" value="0.19746376811594202" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/profile.xml" value="0.22644927536231885" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/register_activity.xml" value="0.1" />
+        <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/report_problem.xml" value="0.22644927536231885" />
         <entry key="..\:/Projek Koding/Android Studio/EQual2/app/src/main/res/layout/splashscreen_activity.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/ramaa/OneDrive/Documents/RAION Internship/E-Qual-RAION/EQual/app/src/main/res/drawable/box.xml" value="0.121" />
         <entry key="..\:/Users/ramaa/OneDrive/Documents/RAION Internship/E-Qual-RAION/EQual/app/src/main/res/drawable/register_activity.xml" value="0.168" />
-        <entry key="..\:/Users/ramaa/OneDrive/Documents/RAION Internship/E-Qual-RAION/EQual/app/src/main/res/drawable/transparent2.xml" value="0.121" />
         <entry key="..\:/Users/ramaa/OneDrive/Documents/RAION Internship/E-Qual-RAION/EQual/app/src/main/res/layout/activity_main.xml" value="0.18432971014492755" />
-        <entry key="..\:/Users/ramaa/OneDrive/Documents/RAION Internship/E-Qual-RAION/EQual/app/src/main/res/layout/profile.xml" value="0.264" />
         <entry key="..\:/Users/ramaa/OneDrive/Documents/RAION Internship/E-Qual-RAION/EQual/app/src/main/res/layout/register_activity.xml" value="0.25" />
-        <entry key="..\:/Users/ramaa/OneDrive/Documents/RAION Internship/E-Qual-RAION/EQual/app/src/main/res/layout/report_problem.xml" value="0.10989583333333333" />
       </map>
     </option>
   </component>

@@ -10,12 +10,11 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.bccintern3.invisiblefunction.LoadActivity
 import com.example.equal.R
 import com.example.equal.activity_login.LoginActivity
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
 import com.squareup.picasso.Picasso
 
-class RegisterActivity:AppCompatActivity(R.layout.activity_register) {
+class RegisterActivity:AppCompatActivity(R.layout.register_activity) {
     private lateinit var logo:ImageView
     private lateinit var bg:ImageView
     private lateinit var inputEmail:TextInputEditText

@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import com.squareup.picasso.Picasso
 
-class LoginActivity:AppCompatActivity(R.layout.activity_login) {
+class LoginActivity:AppCompatActivity(R.layout.login_activity) {
     private lateinit var logo:ImageView
     private lateinit var bg:ImageView
     private lateinit var inputEmail:TextInputEditText
