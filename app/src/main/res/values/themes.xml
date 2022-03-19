@@ -14,29 +14,4 @@
         <!-- Customize your theme here. -->
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
     </style>
-
-    <style name="Button">
-        <item name="android:background">"@drawable/bg_button"</item>
-        <item name="android:fontFamily">@font/poppins_reguler</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-
-
-    <style name="Button">
-        <item name="android:background">@drawable/activity_onboard_behind_btn</item>
-        <item name="android:fontFamily">@font/nunito_black</item>
-        <item name="android:textColor">@color/palet_fuchsia</item>
-        <item name="android:textSize">18sp</item>
-    </style>
-
-    <style name="input">
-        <item name="android:background">@drawable/transparent2</item>
-        <item name="android:fontFamily">@font/nunito_reguler</item>
-        <item name="android:text">@string/input</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:textColor">@color/palet_light_gray2</item>
-        <item name="android:textSize">18sp</item>
-    </style>
 </resources>

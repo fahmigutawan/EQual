@@ -6,13 +6,16 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.bccintern3.invisiblefunction.LoadActivity
 import com.example.equal.R
+import com.example.equal.activity_home.HomeActivity
 import com.example.equal.activity_onboard.OnboardingActivity
+import com.google.firebase.auth.FirebaseAuth
 import com.squareup.picasso.Picasso
 
 class SplashScreenActivity:AppCompatActivity(R.layout.splashscreen_activity) {
     private lateinit var bg:ImageView
     private lateinit var logo:ImageView
     private lateinit var loadAct:LoadActivity
+    private lateinit var fbAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,6 +27,7 @@ class SplashScreenActivity:AppCompatActivity(R.layout.splashscreen_activity) {
         bg = findViewById(R.id.splashscreen_activity_backgroundiv)
         logo = findViewById(R.id.splashscreen_activity_logoiv)
         loadAct = LoadActivity()
+        fbAuth = FirebaseAuth.getInstance()
         loadNextActivity()
     }
     fun setBackground(){
@@ -59,6 +63,10 @@ class SplashScreenActivity:AppCompatActivity(R.layout.splashscreen_activity) {
         })
     }
     fun loadNextActivity(){
-        loadAct.loadActivityComplete(this,OnboardingActivity::class.java,this,true,2500)
+        if(fbAuth.currentUser!=null){
+            loadAct.loadActivityComplete(this,OnboardingActivity::class.java,this,true,2500)
+        }else{
+            loadAct.loadActivityComplete(this,HomeActivity::class.java,this,true,2500)
+        }
     }
 }

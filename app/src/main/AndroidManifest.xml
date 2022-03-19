@@ -24,5 +24,6 @@
         <activity android:name=".activity_register.RegisterActivity"
             android:windowSoftInputMode="stateVisible|adjustPan"/>
         <activity android:name=".activity_onboard.OnboardingActivity"/>
+        <activity android:name=".activity_home.HomeActivity"/>
     </application>
 </manifest>

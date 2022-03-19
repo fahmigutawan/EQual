@@ -154,7 +154,7 @@
                     tools:ignore="MissingConstraints">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        style="@style/input"
+
                         android:layout_width="350dp"
                         android:layout_height="95dp"
                         android:background="@drawable/transparent"

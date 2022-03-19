@@ -8,7 +8,9 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.bccintern3.invisiblefunction.LoadActivity
 import com.example.equal.R
+import com.example.equal.activity_home.HomeActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -28,6 +30,7 @@ class LoginActivity:AppCompatActivity(R.layout.login_activity) {
     private lateinit var googleBtn:FloatingActionButton
     private lateinit var googleSignInClient: GoogleSignInClient
     private lateinit var fbAuth: FirebaseAuth
+    private lateinit var loadAct:LoadActivity
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,6 +47,7 @@ class LoginActivity:AppCompatActivity(R.layout.login_activity) {
         loginBtn = findViewById(R.id.login_activity_loginBtn)
         googleBtn = findViewById(R.id.login_activity_googlefab)
         fbAuth = FirebaseAuth.getInstance()
+        loadAct = LoadActivity()
 
 
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -83,7 +87,18 @@ class LoginActivity:AppCompatActivity(R.layout.login_activity) {
     }
     fun runCLickListener(){
         loginBtn.setOnClickListener {
-
+            fbAuth.signInWithEmailAndPassword(
+                inputEmail.text.toString().trim(),
+                inputPass.text.toString().trim()
+            ).addOnSuccessListener {
+                Toast.makeText(applicationContext,"Login berhasil.\n\nOtomatis akan ke halaman beranda",
+                    Toast.LENGTH_LONG).show()
+                Handler().postDelayed({
+                    loadAct.loadActivityComplete(this,HomeActivity::class.java,this,true,1500)
+                },0)
+            }.addOnFailureListener {
+                Toast.makeText(applicationContext,"Terjadi kesalahan tak terduga, coba lagi nanti", Toast.LENGTH_SHORT).show()
+            }
         }
         googleBtn.setOnClickListener {
             signInGoogle()
@@ -114,7 +129,8 @@ class LoginActivity:AppCompatActivity(R.layout.login_activity) {
                     Toast.makeText(applicationContext,"Login berhasil.\n\nOtomatis akan ke halaman beranda",
                         Toast.LENGTH_LONG).show()
                     Handler().postDelayed({
-                    },1200)
+                                  loadAct.loadActivityComplete(this,HomeActivity::class.java,this,true,1500)
+                    },0)
                 } else {
                     Toast.makeText(applicationContext,"Terjadi kesalahan tak terduga, coba lagi nanti", Toast.LENGTH_SHORT).show()
                 }

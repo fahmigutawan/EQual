@@ -5,9 +5,6 @@
     <string name="subjudul_report">You can report your problem and you can also tell me how the chronology.</string>
     <string name="judul1">Welcome!</string>
     <string name="judul_report">Reporting \nYour Problem</string>
-    <string name="login">
-        Already have an account? <font color="#00000"><b>Login</b></font>
-    </string>
     <string name="subjudul1">Explore all the most of your needs based on your experienced and needs</string>
     <string name="btn_login">LOGIN</string>
     <string name="btn_register">REGISTER</string>
@@ -25,12 +22,6 @@
     <string name="subjudul_emergency">Please choose who you will get call</string>
     <string name="emergency1">Police</string>
     <string name="emergency2">Family or Friend</string>\
-    <string name="article2">
-        In 2021, eight countries have elected or sworn in their first woman Head of State or Government, with Barbados, Estonia and Moldova having women as President and Prime Minister for at least part of the year.
-        The year started off with Kaja Kallas taking office in January as Estonia’s first woman Prime Minister. Samia Suluhu Hassan became Tanzania’s first woman President in March. In May, Fiamē Naomi Mata'afa was elected Prime Minister of Samoa. June saw Robinah Nabbanja nominated to the role of Prime Minister of Uganda. <font color="#00000" family="nunito-black"><b>See More</b></font>
-    </string>
     <string name="article1">Sixteen defining moments for gender equality in 2021</string>
     <string name="review">(4,9 reviews)</string>
-    <string name="psikolog">Mr. Budiman Susantois a psychologist from the Gajahmada University campus. He received his psychology degree since 2006 and has been active in this world for 16 years.
-        <font color="#00000"><b>Read More</b></font></string>
 </resources>
